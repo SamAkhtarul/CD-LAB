@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     
     for(int i=0;i<y.size();i++){
         
-        if(y[i]=='+' || y[i]=='-' || y[i]=='/' || y[i]=='*' || y[i]=='+%' || y[i]=='=' ){
+        if(y[i]=='+' || y[i]=='-' || y[i]=='/' || y[i]=='*' || y[i]=='%' || y[i]=='=' ){
             count++;
             cout<<" operator"<<count<<":"<<y[i]<<endl;
         }
