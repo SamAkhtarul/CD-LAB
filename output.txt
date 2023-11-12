@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  // Declare two variables
+  int x=6, y=7;
+
+  // Calculatation
+  int sum = x + y;
+    int mul = x * y
+  // show result
+  cout << "The addition of the two numbers is " << sum << endl;
+  return sum;
+}
